@@ -9,8 +9,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2? 
-      family="Poppins:whght@100;200;300;400;500;600;700;800;900&display=swap" rel="styelsheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -19,7 +19,7 @@
   </head>
   <body>
 
-    <sectio class="hero">
+    <section class="hero">
       <div class="main-width">
         <header>
           <div class="logo">
@@ -27,7 +27,7 @@
           </div>
 
           <nav>
-            <div clsss="hamb">
+            <div class="hamb">
               <span></span>
               <span></span>
               <span></span>
@@ -35,15 +35,45 @@
 
             <ul class="nav-list">
               <li><a href="#">Home</a></li>
-              <li><a href="#"></a>About</li>
-              <li><a href="#"></a>Experience</li>
-              <li><a href="#"></a>Projects</li>
-              <li class="btn"><a href="#"></a>Contact Me</li>
-            </ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Experience</a></li>
+              <li><a href="#">Projects</a></li>
+              <li class="btn"><a href="#">Contact Me</a></li>
+            </ul> 
           </nav>
         </header>
+        
+        <img src="img/IMG_4210.jpg" alt="portrait of me"/>
+      
+        <div class="container">
+          <div class="hero-text">
+            <h3>Hi There!</h3>
+            <h1>I Am <span class="input"></span></h1>
+            <p>testing testing one two three four five six seven eight nine ten</p>
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <button type="button">More About Me</button>
+          </div>
+
+          <div class="bottom">
+            <p>@2022 brandonlyee.github.io</p>
+          </div>
+        </div>
       </div>
     </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings: ["Brandon Yee.", "a Student.", "a Problem Solver.", "a Competitor."],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true,
+      });
+    </script>
 
   </body>
 </html>
