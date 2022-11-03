@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 *{
   padding: 0;
   margin: 0;
@@ -8,7 +14,7 @@
 
 img {
   float: right;
-  padding: 200px 20px;
+  padding: 70px 20px;
   border-radius: 50%;
   width: 500px;
 }
@@ -121,7 +127,7 @@ nav .nav-list li.btn:hover a {
 }
 
 .container {
-  padding-top: 190px;
+  padding-top: 150px;
 }
 
 .container .hero-text {
@@ -203,6 +209,39 @@ span {
   color: #eee;
   letter-spacing: 2px;
   font-size: 15px;
+}
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #282828;
+}
+.experience {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #303030;
+}
+.projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #383838;
+}
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #404040;
+}
+
+.header{
+  color: #eee;
+  text-align: center;
+}
+
+.body {
+  padding-top: 20px;
+  color: #eee;
+  line-height: 1.8;
+  text-indent: 40px;
 }
 
 @media screen and (max-width: 930px) {

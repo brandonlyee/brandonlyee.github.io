@@ -1,79 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
 
-    <title>Personal Website using HTML and CSS</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" , initial-scale="1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet">
+  <title>Personal Website using HTML and CSS</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-  </head>
-  <body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <section class="hero">
-      <div class="main-width">
-        <header>
-          <div class="logo">
-            <i class="fa-solid fa-b"></i>
+</head>
+
+<body>
+  <section href="home" class="hero">
+    <div class="main-width">
+      <header>
+        <div class="logo">
+          <i class="fa-solid fa-b"></i>
+        </div>
+
+        <nav>
+          <div class="hamb">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
 
-          <nav>
-            <div class="hamb">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li class="btn"><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </header>
 
-            <ul class="nav-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Experience</a></li>
-              <li><a href="#">Projects</a></li>
-              <li class="btn"><a href="#">Contact Me</a></li>
-            </ul> 
-          </nav>
-        </header>
-        
-        <img src="img/IMG_4210.jpg" alt="portrait of me"/>
-      
-        <div class="container">
-          <div class="hero-text">
-            <h3>Hi There!</h3>
-            <h1>I Am <span class="input"></span></h1>
-            <p>Computer Science & Engineering Student @ Lehigh University</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-            <button type="button">More About Me</button>
-          </div>
+      <img src="img/IMG_4210.jpg" alt="portrait of me" />
 
-          <div class="bottom">
-            <p>@2022 brandonlyee.github.io</p>
+      <div class="container">
+        <div class="hero-text">
+          <h3>Hi There!</h3>
+          <h1>I Am <span class="input"></span></h1>
+          <p>Computer Science & Engineering Student @ Lehigh University</p>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
           </div>
+          <button type="button">More About Me</button>
         </div>
       </div>
-    </section>
 
-    <script type="text/javascript" src="js/script.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-      var typed = new Typed(".input", {
-        strings: ["Brandon Yee.", "a Student.", "a Problem Solver.", "a Competitor."],
-        typeSpeed: 70,
-        backSpeed: 60,
-        loop: true,
-      });
-    </script>
 
-  </body>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="main-width">
+      <div class="header">
+        <h1>About Me</h1>
+      </div>
+      <div class="body">
+        <p>
+          Hi! Thank you for visitng my page! My name is Brandon Yee. I am a Computer Science & Engineering student at
+          Lehigh University. I am currently looking for an internship position in software, eager to improve on my
+          programming skills to
+          create something great. Reflecting on my childhood, I have noticed three invariants throughout my life:
+          problem-solving, creativity,
+          and competition. Whether it was finding the most efficient way to complete a chore at home, or practicing
+          everyday to be the best athlete that I could be,
+          these three things have stuck with me, and continue to define me throughout my programming journey.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="experience" class="experience">
+    <div class="main-width">
+      <div class="header">
+        <h1>Experience</h1>
+      </div>
+    </div>
+  </section>
+  
+  <section id="projects" class="projects">
+    <div class="main-width">
+      <div class="header">
+        <h1>Projects</h1>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact">
+    <div class="main-width">
+      <div class="header">
+        <h1>Contact Me</h1>
+      </div>
+      <div class="bottom">
+        <p>@2022 brandonlyee.github.io</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".input", {
+      strings: ["Brandon Yee.", "a Student.", "a Problem Solver.", "a Competitor."],
+      typeSpeed: 70,
+      backSpeed: 60,
+      loop: true,
+    });
+  </script>
+
+</body>
+
 </html>
